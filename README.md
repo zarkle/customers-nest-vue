@@ -1,68 +1,21 @@
-Nestjs backend and Vuejs frontend book app
+# Customer List Management App
 
-https://scotch.io/tutorials/building-a-modern-app-using-nestjs-mongodb-and-vuejs
+## Getting Started
+This is built in 2 sections, the backend built with Nest.js and the frontend built with Vue.js, and uses MongoDB for the database.  Make sure you have Node, NPM, and MongoDB installed on your system. Also make sure you start your Mongo server.
 
-## Nest Information (backend folder)
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## App Setup
+- To easily set up the application, clone this repository
+- Change directory into the newly cloned project
+- Change directory into `backend`
+- Install backend dependencies with `npm install`
+- Run the backend application with `npm run start`. This will start the backend application on port `3000`
+- Open another terminal tab and change directory into `frontend`
+- Install frontend dependencies with `npm install`
+- Run the frontend app with `npm run serve`
+- Open your browser to http://localhost:8080
 
-## Installation
-
-```bash
-$ npm install
-```
-
-## Running the app
-
-```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-
-# Vue Information (frontend folder)
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+#### Built With
+- [Nest.js](https://nestjs.com/)
+- [Vue.js](https://vuejs.org/)
+- [MongoDB]()
+- [Tutorial](https://scotch.io/tutorials/building-a-modern-app-using-nestjs-mongodb-and-vuejs)
