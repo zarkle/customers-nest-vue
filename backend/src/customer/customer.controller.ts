@@ -29,6 +29,7 @@ export class CustomerController {
         const customer = await this.customerService.getCustomer(customerID);
         if (!customer) throw new NotFoundException('Customer does not exist!');
         return res.status(HttpStatus.OK).json(customer);
+    }
 
     // Update a customer's details
     @Put('/update')
