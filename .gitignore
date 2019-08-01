@@ -105,6 +105,8 @@ typings/
 # dotenv environment variables file
 .env
 .env.test
+.env.local
+.env.*.local
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -160,9 +162,16 @@ yarn-error.log
 
 # IDEs and editors
 /.idea
+.idea
 .project
 .classpath
 .c9/
 *.launch
 .settings/
 *.sublime-workspace
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
