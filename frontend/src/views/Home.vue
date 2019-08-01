@@ -1,9 +1,8 @@
 <template>
     <div class="container-fluid">
       <div class="text-center">
-        <h1>Nest Customer List App Tutorial</h1>
-       <p> Built with Nest.js, Vue.js and MongoDB</p>
-       <div v-if="customers.length === 0">
+        <h1>Customer List</h1>
+        <div v-if="customers.length === 0">
             <h2> No customer found at the moment </h2>
         </div>
       </div>
